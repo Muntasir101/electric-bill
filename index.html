@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electricity Bill Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Electricity Bill Calculator</h1>
+    </header>
+    <main>
+        <div class="calculator">
+            <label for="units">Enter Total Units Consumed:</label>
+            <input type="number" id="units" placeholder="e.g., 450" min="0">
+            <button onclick="calculateBill()">Calculate Bill</button>
+            <div id="result"></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Electricity Billing System</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
